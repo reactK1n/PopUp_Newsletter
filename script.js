@@ -13,7 +13,7 @@ cancel.addEventListener("click", ()=>{
 });
 
 
-// The pop up should disappear when this options true met
+// The pop up should disappear when this options is true
 main.addEventListener("click", (e)=>{
 if (e.target == main) {
     popUp.style.display="none";
